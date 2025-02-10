@@ -1,0 +1,144 @@
+
+
+body{
+    background-image:url(fundos\geometry-1044090_1280.jpg);
+}
+
+.objetos2d{
+    width: 100%;
+    height: 90px;
+    background-color: #8fe3ff;
+    margin-bottom: 5px;
+}
+.quadrado{
+    width: 100%;
+    height: 90px;
+    background-color: whitesmoke;
+    margin-bottom: 5px;
+}
+
+.triangulo{
+    width: 100%;
+    height: 90px;
+    background-color: #8fe3ff;
+    margin-bottom: 5px;
+}
+.losango{
+    width: 100%;
+    height: 90px;
+    background-color: #8fe3ff;
+    margin-bottom: 5px;
+}
+.hexagono{
+    width: 100%;
+    height: 90px;
+    background-color: #8fe3ff;
+    margin-bottom: 5px;
+}
+.octogono{
+    width: 100%;
+    height: 90px;
+    background-color: #8fe3ff;
+    margin-bottom: 5px;
+}
+.pentagono{
+    width: 100%;
+    height: 90px;
+    background-color: #8fe3ff;
+    margin-bottom: 5px;
+}
+.op{
+    background-color: rgb(248, 248, 248);
+    width: 220px;
+    height: 1000px;
+    display:flex;
+    flex-direction: column;
+    margin-left: -8px;
+}
+
+.bloco{
+    width: 150%;
+    display: flex;
+    margin-left: 220px;
+    margin-top: -1000px;
+    
+}
+
+.qua{
+    width: 35px;
+    height: 35px;
+    background-color: #f6335b;
+    margin-right: 15px;
+}
+
+.tri {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 40px solid #ffc60e;
+    margin-right: 15px;
+}
+
+.lo {
+    width: 35px;
+    height: 35px;
+    background-color: #a8b243;
+    transform: rotate(45deg);
+    margin-right: 15px;
+    margin-left: -14px;
+  }
+
+.he {
+    width: 40px;
+    height: 45px;
+    background-color: #412c85;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    margin-right: 15px;
+  }
+
+.pe{
+        width: 40px;
+        height: 40px;
+        background-color: #f7991b;
+        clip-path: polygon(50% 0%, 100% 38%, 81% 100%, 19% 100%, 0% 38%);
+        margin-right: 15px;
+  }
+
+.oc {
+    width: 50px;
+    height: 50px;
+    background-color: #fa6e91;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 100% 75%, 75% 100%, 25% 100%, 0% 75%, 0% 25%);
+    margin-right: 15px;
+  }
+
+  button{
+    border:2.5px solid rgb(201, 201, 201);
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .t{
+    font-size: 20px;
+    color: rgb(85, 85, 85);
+  }
+
+.fundoquadriculado {
+    width: 50%;
+}
+
+.cartão {
+    width: 70%;
+    margin-left: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    padding: 60px;
+}
+
+.triangulo2 {
+    width: 25%;
+    margin-left: 50%;
+}
